@@ -1,0 +1,10 @@
+1.Calculate the total Opening Stock for all products.
+2.Find the average number of units sold.
+3.Add a column that shows "Reorder" if Hand-In Stock < 50, otherwise "Sufficient".
+4.Count the total number of products listed.
+5.What is the maximum cost price per unit?
+6.What is the minimum stock-in quantity?
+7.Count how many products have more than 60 units in Hand-In Stock.
+8.Combine Product ID and Product Name into one column like "P101 - Laptop".
+9.Extract the numeric part from the Product ID("101" from "P101").
+10.Remove any extra spaces from Product Name (in case of manual data entry).
