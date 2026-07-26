@@ -1,0 +1,18 @@
+1.Calculate Total Stock for each product.
+2.Calculate Remaining Stock for each product.
+3.Calculate Stock Value.
+4.Find % of Units Sold from total available stock.
+5.Add a 10% markup on Cost Price Per Unit.
+6.If Units Sold > 10,label as “High Demand”, else “Normal”.
+7.Check if Hand-In Stock is below 30 AND Units Sold > 10 so "Urgent Restock", "OK"
+8.Check if Stock In = 0 OR Hand-In Stock < 20 so "Low Supply", "Stable"
+9.Flag products where Cost Per Unit is more than 500 so "Expensive", "Affordable"
+10. Extract the first 3 letters of the product name.
+11. Count characters in the product name.
+12. Convert the product name to uppercase.
+13.Create a unique Product Code by combining ID and first 2 letters of name.
+14. Remove extra spaces from a product name.
+15.Find the average Hand-In Stock across all products.
+16. Find the total Cost Price for all products.
+17.Count how many products have Stock In greater than 20.
+
