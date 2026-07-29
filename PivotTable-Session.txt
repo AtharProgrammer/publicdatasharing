@@ -1,0 +1,68 @@
+Pivot Table Questions-
+
+Question 1: Total Sales by Region
+Create a Pivot Table to calculate total sales per region.
+Steps-
+1. Insert → PivotTable → Select `SalesData`.
+2. Drag `Region` to Rows.
+3. Drag `Total Sales` to Values.
+4. Ensure aggregation is set to "Sum".
+
+Result Example:
+
+| Region | Sum of Total Sales |
+|    |        |
+| East   | 9600               |
+| West   | 900                |
+| South  | 1200               |
+| North  | 1800               |
+
+
+
+Question 2: Units Sold by Salesperson and Product
+Find out how many units each salesperson sold of each product.
+1. Create a Pivot Table.
+2. Drag `Salesperson` to Rows.
+3. Drag `Product` to Columns.
+4. Drag `Units Sold` to Values (set as Sum).
+
+Result Example:
+
+| Salesperson | Laptop | Tablet | Desktop |
+|    -- |    |    |   - |
+| Alice       | 5      | 6      |         |
+| Bob         |        | 3      |         |
+| Carol       | 7      |        |         |
+| Dave        |        |        | 2       |
+
+ 
+Question 3: Monthly Sales Trend
+Analyze monthly total sales trend.
+1. Drag Month to Rows.
+2. Drag `Total Sales` to Values.
+
+Result Example:
+
+| Month   | Total Sales |
+|   - |    -- |
+| 2025-01 | 17500       |
+| 2025-02 | ...         |
+
+ 
+
+Question 4: Filter for East Region Only
+Show total units sold per product in the East region.
+1. Use the same Pivot Table as Question 2.
+2. Drag `Region` to the Filters area.
+3. Filter by "East".
+
+ 
+Question 5: Top 3 Products by Revenue
+Display Top 3 products based on Total Sales.
+1. Drag `Product` to Rows, `Total Sales` to Values.
+2. Right-click on a product name → Filter → Top 10 → Change to Top 3 → By Total Sales.
+
+Question6: Add Slicer for Salesperson
+Make your Pivot Table interactive.
+1. Select Pivot Table → Analyze → Insert Slicer → Select `Salesperson`.
+2. Click on names to filter Pivot Table dynamically.
