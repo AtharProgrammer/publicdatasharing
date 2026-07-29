@@ -1,0 +1,28 @@
+---inventory_data.xlsx
+
+Q1: What is the total stock for all "Laptop" items?
+Q2: What is the total sold items for "Accessories" in "Warehouse A"?
+Q3: How many items have stock greater than 20?
+Q4: How many "Electronics" items are in "Warehouse B"?
+Q5: Create a column to evaluate stock status:
+
+"Low" if stock < 10
+
+"Medium" if stock between 10 and 20
+
+"High" if stock > 20
+
+
+----Inventory-Records-Sample-Data
+
+Q6: Add a column to calculate Stock / Sold, but display "Error" if Sold is 0.
+
+Q7.Using  VLOOKUP , retrieve the  Cost Price Per Unit  for the product  "Laptop" .
+
+Q8.Using  VLOOKUP , find the  Hand-In-Stock  value for  Product ID = P105 .
+
+Q9.Using  XLOOKUP , fetch the  Opening Stock  for  Product ID = P102 .
+
+Q10.Using XLOOKUP, retrieve the Purchase/Stock-In for "Keyboard".
+
+
